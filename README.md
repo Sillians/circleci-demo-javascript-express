@@ -200,11 +200,11 @@ It contains a blueprints array. Each object in it is the config for a generator.
 
 A file object contains
 
-1. `blueprint-path` - location of the blueprint file
+  1. `blueprint-path` - location of the blueprint file
 
-2. `target-path` - location where the file should be generated
+  2. `target-path` - location where the file should be generated
 
-3. `parent-path` - optional parameter, used if you want to generate the file inside an already existing folder in your project.
+  3. `parent-path` - optional parameter, used if you want to generate the file inside an already existing folder in your project.
 
 Also, `target-path` supports [ejs](https://github.com/mde/ejs) and the following variables will be passed while rendering,
 
